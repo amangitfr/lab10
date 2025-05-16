@@ -23,7 +23,7 @@ require_once("settings.php");
             }
             echo "</table>";
 
-            <input type="Button" value="Update">
+            <input type="Button" value="Update" name="update">
         } else {
             echo "🚫 No matching Users found.";
         }

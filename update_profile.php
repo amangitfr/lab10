@@ -13,9 +13,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     } else {
         echo "<p style='color:red;'>❌ Error: " . mysqli_error($conn) . "</p>";
     }
-} else if (isset($_GET['username'])) {
+} else if (isset($_GET['name'])) {
     // First time loading, show the form
-    $username = $_GET['username'];
 ?>
 <!DOCTYPE html>
 <html>
